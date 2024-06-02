@@ -1,0 +1,27 @@
+/* instructorDetail.css */
+
+/* Style for instructor detail container */
+.instructor-detail-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 50%;
+  }
+  
+  /* Style for instructor info */
+  .instructor-info {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for instructor detail labels */
+  .label {
+    font-weight: bold;
+  }
+  
+  /* Style for instructor detail values */
+  .value {
+    margin-left: 10px;
+  }
+  

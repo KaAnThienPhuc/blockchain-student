@@ -1,0 +1,56 @@
+.add-student-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-student-container h2 {
+  margin-bottom: 20px;
+}
+
+.add-student-container form div {
+  margin-bottom: 10px;
+}
+
+.add-student-container form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.add-student-container form input[type="number"],
+.add-student-container form input[type="text"],
+.add-student-container form input[type="date"],
+.add-student-container form input[type="radio"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-student-container form input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+  
+}
+
+.add-student-container form button {
+  padding: 10px 20px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-student-container form button:hover {
+  background-color: #0d6efd;
+}
+
+.add-student-container p {
+  margin-top: 10px;
+  color: #ff0000;
+}

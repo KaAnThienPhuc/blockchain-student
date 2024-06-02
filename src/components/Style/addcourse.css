@@ -1,0 +1,72 @@
+.add-course-container {
+    width: 50%;
+    /* margin: auto; */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="email"] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #45a049;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  /* CSS for radio buttons */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button {
+  margin-bottom: 5px;
+}
+
+.radio-label {
+  margin-left: 5px;
+}
+
+select {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  appearance: none; /* Ẩn giao diện mặc định của nút select */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"></path></svg>'); /* Thêm một biểu tượng mũi tên drop-down */
+  background-repeat: no-repeat;
+  background-position: right 8px top 50%; /* Vị trí của biểu tượng */
+  background-size: 20px 20px; /* Kích thước của biểu tượng */
+  cursor: pointer; /* Đổi con trỏ khi rê chuột qua */
+}
+
+  
